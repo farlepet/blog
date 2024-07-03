@@ -46,6 +46,7 @@ feed:
 #
 exclude:
   - 404.md
+  - "*.bak"
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
