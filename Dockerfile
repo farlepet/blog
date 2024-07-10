@@ -5,6 +5,9 @@ RUN apk add --no-cache build-base make cmake gcc
 RUN gem update bundler
 RUN gem install bundler jekyll
 
+# This prevents us from needing to install everything every time we update a file
+COPY Gemfile /tmp/Gemfile
+RUN cd /tmp; bundle install
 
 COPY . /opt/build
 RUN set -ex; \

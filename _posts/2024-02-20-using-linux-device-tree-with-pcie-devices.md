@@ -3,6 +3,7 @@ layout: post
 title:  "Using Linux device-tree with PCIe devices"
 date:   2024-02-20 17:45:00 -0600
 categories: linux
+permalink: /posts/using_linux_device_tree_with_pcie_devices.html
 ---
 
 Back in 2015, [Linux deprecated the `/sys/class/gpio` interface](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/Documentation/ABI/obsolete/sysfs-gpio?h=v5.16&id=fe95046e960b4b76e73dc1486955d93f47276134)

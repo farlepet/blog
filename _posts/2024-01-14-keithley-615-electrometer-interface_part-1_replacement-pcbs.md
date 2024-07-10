@@ -3,6 +3,7 @@ layout: post
 title:  "Keithley 615 Electrometer Interface - Part 1: Replacement PCBs"
 date:   2024-01-14 10:16:00 -0600
 categories: test-equipment
+permalink: /posts/keithley_615_electrometer_interface_part_1.html
 ---
 This is a project that I started a bit over a year ago, though which is still
 in progress at the time of writing. There are two GitHub repos associated with

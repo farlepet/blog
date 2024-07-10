@@ -3,6 +3,7 @@ layout: post
 title:  "Tektronix TLA Logic Probe Leadset Replacement"
 date:   2024-07-01 21:00:00 -0500
 categories: test-equipment
+permalink: /posts/tektronix_tla_logic_probe_leadset_replacement.html
 ---
 
 GitHub repo containing the PCBs and 3D models in this post: <https://github.com/farlepet/tek-tla-probes>
