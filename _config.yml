@@ -31,6 +31,7 @@ owner: Peter Farley
 #theme: hacker
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 feed:
   excerpt_only: true
