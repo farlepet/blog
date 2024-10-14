@@ -32,6 +32,7 @@ owner: Peter Farley
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-diagrams
 
 feed:
   excerpt_only: true

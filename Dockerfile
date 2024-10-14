@@ -1,6 +1,8 @@
-FROM --platform=$BUILDPLATFORM ruby:3.3-alpine3.19 AS builder
+FROM --platform=$BUILDPLATFORM ruby:3.3.5-alpine3.20 AS builder
 
-RUN apk add --no-cache build-base make cmake gcc
+RUN apk add --no-cache build-base make cmake gcc npm
+
+RUN npm install -g wavedrom-cli
 
 RUN gem update bundler
 RUN gem install bundler jekyll
@@ -18,7 +20,7 @@ RUN set -ex; \
 
 
 
-FROM --platform=$TARGETPLATFORM nginx:1.25.4-alpine3.18-slim AS server
+FROM nginx:1.27.2-alpine3.20-slim AS server
 
 COPY --from=builder /opt/build/_site/ /usr/share/nginx/html
 COPY ./nginx.conf /etc/nginx/nginx.conf
