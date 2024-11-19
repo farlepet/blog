@@ -6,9 +6,10 @@ permalink: /about/
 
 I'm Peter Farley, an Embedded Engineer in Minnesota. I graduated from the University
 of St. Thomas with a bachelors degree in Computer Engineering. In my professional life, I
-write software for embedded devices, currently Linux-based devices and focused on
-cellular routers. Previously, I worked on power conscious microcontroller-based
-products utilizing cellular for networking, and GNSS receivers for location.
+write software for embedded devices, currently power-conscious microcontroller-based
+products utilizing cellular for networking, and GNSS receivers for location, and
+more recently devices that interact with different types of vehicle bus. Previously
+I worked on Linux-based devices, specifically focused on cellular routers.
 
 I also co-founded [Leozarf](https://leozarf.com), a contracting company that
 specializes in embedded development.
