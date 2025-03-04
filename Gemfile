@@ -30,6 +30,10 @@ end
 
 gem "webrick"
 
+# Fix segmentation fault on build
+# See: https://github.com/protocolbuffers/protobuf/issues/16853#issuecomment-2583135716
+gem 'google-protobuf', force_ruby_platform: true if RUBY_PLATFORM.include?('linux-musl')
+
 # Performance-booster for watching directories on Windows
 #gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
