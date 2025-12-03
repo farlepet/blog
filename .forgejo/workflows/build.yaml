@@ -42,3 +42,11 @@ jobs:
         with:
           push: true
           tags: git.int.pfarley.dev/pfarley-private/blog:${{ steps.get_tag_name.outputs.latest_tag }}
+
+      - name: Deploy
+        uses: https://git.int.pfarley.dev/pfarley/portainer-update-stack-action@main
+        with:
+          portainer-url: ${{ secrets.PORTAINER_URL }}
+          portainer-api-key: ${{ secrets.PORTAINER_API_KEY }}
+          portainer-endpoint: 13
+          portainer-stack: 62
