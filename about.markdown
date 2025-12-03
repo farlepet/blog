@@ -21,5 +21,10 @@ particularly at microwave frequencies. While I do have an amateur radio license
 (KE0WCZ), I don't really use it all that much. I also occasionally design custom
 PCBs for some projects.
 
-Most of my software/hardware projects can be found on my [GitHub](https://github.com/farlepet)
+Most of my software/hardware projects can be found on my [Forgejo](https://git.pfarley.dev)
 
+Obligatory disclaimers:
+* Any opinions expressed here are my own, and do not reflect those of my
+  employers, past or present, or of Leozarf.
+* No content on this site (to the best of my knowledge) has been generated with
+  the use of "AI."
