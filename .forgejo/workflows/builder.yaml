@@ -3,12 +3,15 @@ on:
     branches:
       - main
       - staging
+    paths:
+      - .forgejo/workflows/builder.yaml
+      - Gemfile
 
 env:
   BRANCH_NAME: ${{ forgejo.head_ref || forgejo.ref_name }}
 
 jobs:
-  build:
+  builder:
     runs-on: docker
     container:
       image: ghcr.io/catthehacker/ubuntu:act-22.04
@@ -40,14 +43,7 @@ jobs:
       - name: Build and Push - ${{ env.BRANCH_NAME }}
         uses: docker/build-push-action@v6
         with:
+          file: docker/blog-builder/Dockerfile
           push: true
-          tags: git.int.pfarley.dev/pfarley-private/blog:${{ steps.get_tag_name.outputs.latest_tag }}
-          build-args: BUILDER_TAG=${{ steps.get_tag_name.outputs.latest_tag }}
+          tags: git.int.pfarley.dev/pfarley/blog-builder:${{ steps.get_tag_name.outputs.latest_tag }}
 
-      - name: Deploy
-        uses: https://git.int.pfarley.dev/pfarley/portainer-update-stack-action@main
-        with:
-          portainer-url: ${{ secrets.PORTAINER_URL }}
-          portainer-api-key: ${{ secrets.PORTAINER_API_KEY }}
-          portainer-endpoint: 13
-          portainer-stack: 62
