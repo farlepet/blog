@@ -47,7 +47,7 @@ feed:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - 404.md
+#   - 404.md
   - "*.bak"
 #   - .sass-cache/
 #   - .jekyll-cache/
