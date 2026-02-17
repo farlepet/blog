@@ -11,6 +11,7 @@ FROM nginx:1.27.2-alpine3.20-slim AS server
 
 COPY --from=builder /opt/build/_site/ /usr/share/nginx/html
 COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./robots.txt /usr/share/nginx/html/
 
 EXPOSE 80
 
