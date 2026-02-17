@@ -6,7 +6,7 @@ categories: freebsd
 permalink: /posts/ptp_receiver_on_freebsd.html
 ---
 
-A while back I installed a GPS-disciplined PTP time server at home. This was
+A while back I installed a GPS-disciplined PTP (Precision Time Protocol) time server at home. This was
 partially due to a contract project that was using PTP (but totally did not
 require having such a dedicated time server), but mostly just because I am
 interested in time. On most of my hard-wired machines I already have them set
