@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archive
+description: Archive of previous blog posts
 permalink: /archive.html
 ---
 

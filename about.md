@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: About Peter Farley
 permalink: /about.html
 ---
 

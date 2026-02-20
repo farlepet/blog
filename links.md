@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Links
+description: Assortment of links to sites, personal and otherwise
 permalink: /links.html
 ---
 

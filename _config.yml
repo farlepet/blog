@@ -20,9 +20,9 @@
 
 title: Peter Farley
 email:
-description: #>- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.pfarley.dev" # the base hostname & protocol for your site, e.g. http://example.com
+description: Peter Farley's personal website and blog
+baseurl: ""
+url: "https://blog.pfarley.dev"
 twitter_username:
 github_username: farlepet
 owner: Peter Farley
