@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /links/
+permalink: /links.html
 ---
 
 * [Forgejo instance](https://git.pfarley.dev)

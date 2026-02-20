@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
 I'm Peter Farley, an Embedded Engineer in Minnesota. I graduated from the University
