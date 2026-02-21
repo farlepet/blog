@@ -1,0 +1,30 @@
+title: Peter Farley
+email:
+description: Peter Farley's personal blog
+baseurl: ""
+url: "https://blog.pfarley.dev"
+twitter_username:
+github_username: farlepet
+owner: Peter Farley
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-diagrams
+
+feed:
+  excerpt_only: true
+  posts_limit: 50
+
+exclude:
+  - "*.bak"
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
