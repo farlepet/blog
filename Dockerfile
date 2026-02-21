@@ -9,7 +9,7 @@ RUN set -ex; \
     cd /opt/build/www; \
     bundle exec jekyll build
 
-FROM nginx:1.27.2-alpine3.20-slim AS server
+FROM nginx:1.29.5-alpine3.23-slim AS server
 
 RUN mkdir /usr/share/nginx/html/www; \
     mkdir /usr/share/nginx/html/blog
