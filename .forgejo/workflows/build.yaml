@@ -34,18 +34,18 @@ jobs:
       - name: Login to Registry
         uses: docker/login-action@v3
         with:
-          registry: https://git.int.pfarley.dev
+          registry: https://git.pfarley.dev
           username: ${{ forge.actor }}
           password: ${{ secrets.PACKAGE_REPO_KEY }}
       - name: Build and Push - ${{ env.BRANCH_NAME }}
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: git.int.pfarley.dev/pfarley-private/blog:${{ steps.get_tag_name.outputs.latest_tag }}
+          tags: git.pfarley.dev/pfarley-private/blog:${{ steps.get_tag_name.outputs.latest_tag }}
           build-args: BUILDER_TAG=${{ steps.get_tag_name.outputs.latest_tag }}
 
       - name: Deploy
-        uses: https://git.int.pfarley.dev/pfarley/portainer-update-stack-action@main
+        uses: https://git.pfarley.dev/pfarley/portainer-update-stack-action@main
         with:
           portainer-url: ${{ secrets.PORTAINER_URL }}
           portainer-api-key: ${{ secrets.PORTAINER_API_KEY }}
