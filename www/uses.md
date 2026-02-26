@@ -1,6 +1,11 @@
 ---
 layout: page
+title: Stuff I Use
+description: Software that I use on a regular basis
+permalink: /uses/
 ---
+
+# Software
 
 Lists are very incomplete, and may not reflect current state.
 
@@ -46,3 +51,7 @@ Lists are very incomplete, and may not reflect current state.
 * RSS reader: [tt-rss](https://tt-rss.org/)
 * Personal website server: [NGINX](https://nginx.org/)
 * MQTT server: [mosquitto](https://mosquitto.org/)
+
+# Hardware
+
+TODO
