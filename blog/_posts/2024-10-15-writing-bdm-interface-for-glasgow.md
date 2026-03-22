@@ -168,7 +168,7 @@ read the bit value 10 cycles after it first pulled the line low.
 # The implementation
 
 The implementation can be found in
-[this commit](https://github.com/GlasgowEmbedded/glasgow/commit/da739abb39c6bab254edd1ed7ddf98242cb84a40).
+[this commit](https://git.pfarley.dev/pfarley/glasgow/src/branch/add-bdm-support).
 
 NOTE: At the time of writing, this is still a fairly "hacky" implementation - if
 I were to need to do more with this, or if I wanted to upstream it, I would

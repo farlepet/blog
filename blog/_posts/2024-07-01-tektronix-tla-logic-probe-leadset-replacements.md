@@ -6,7 +6,7 @@ categories: test-equipment
 permalink: /posts/tektronix_tla_logic_probe_leadset_replacement.html
 ---
 
-GitHub repo containing the PCBs and 3D models in this post: <https://github.com/farlepet/tek-tla-probes>
+GitHub repo containing the PCBs and 3D models in this post: <https://git.pfarley.dev/pfarley/tek-tla-probes>
 
 ---
 

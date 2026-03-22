@@ -8,8 +8,8 @@ permalink: /posts/keithley_615_electrometer_interface_part_1.html
 This is a project that I started a bit over a year ago, though which is still
 in progress at the time of writing. There are two GitHub repos associated with
 it:
- - PCB designs: <https://github.com/farlepet/keithley-615-printer-boards>
- - Firmware: <https://github.com/farlepet/keithley-615-net-fw>
+ - PCB designs: <https://git.pfarley.dev/pfarley/keithley-615-printer-boards>
+ - Firmware: <https://git.pfarley.dev/pfarley/keithley-615-net-fw>
 
 
 Background
