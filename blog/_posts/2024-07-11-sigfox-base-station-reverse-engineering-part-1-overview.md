@@ -3,7 +3,7 @@ layout: post
 title:  "Sigfox Base Station Reverse Engineering - Part 1: Overview"
 date:   2024-07-11 18:00:00 -0500
 permalink: /posts/sigfox_base_station_part_1.html
-categories: reverse-engineering rf sdr
+categories: reverse-engineering rf sdr hardware
 ---
 
 Over a year ago I obtained a Sigfox base station, or TAP (Transfox Access Point),

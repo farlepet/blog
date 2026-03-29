@@ -3,7 +3,7 @@ layout: post
 title:  "Sigfox Base Station Reverse Engineering - Part 4: SDR"
 date:   2024-11-19 16:00:00 -0600
 permalink: /posts/sigfox_base_station_part_4.html
-categories: reverse-engineering rf sdr
+categories: reverse-engineering rf sdr hardware
 ---
 
 Finally I've come to the most complex part of the Sigfox (ignoring the standard

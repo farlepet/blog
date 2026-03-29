@@ -3,7 +3,7 @@ layout: post
 title:  "Sigfox Base Station Reverse Engineering - Part 2: RF Power Amplifier"
 date:   2024-07-22 22:00:00 -0500
 permalink: /posts/sigfox_base_station_part_2.html
-categories: reverse-engineering rf sdr
+categories: reverse-engineering rf sdr hardware
 ---
 
 Now that I've given an overview of the Sigfox base station, I'll start diving

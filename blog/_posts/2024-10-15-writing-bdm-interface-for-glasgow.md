@@ -3,7 +3,7 @@ layout: post
 title:  "Writing BDM Interface for the Glasgow Interface Explorer"
 date:   2024-10-15 21:00:00 -0500
 permalink: /posts/writing_bdm_interface_for_glasgow.html
-categories: fpga glasgow microcontroller
+categories: fpga glasgow microcontroller hardware programming
 ---
 
 As I've been working on reverse-engineering the SDR module from the Sigfox base

@@ -3,7 +3,7 @@ layout: post
 title:  "Sigfox Base Station Reverse Engineering - Part 3: Low Noise Amplifier"
 date:   2024-08-05 20:00:00 -0500
 permalink: /posts/sigfox_base_station_part_3.html
-categories: reverse-engineering rf sdr
+categories: reverse-engineering rf sdr hardware
 ---
 
 Before moving on to the more complex SDR module, I decided to take a look at the

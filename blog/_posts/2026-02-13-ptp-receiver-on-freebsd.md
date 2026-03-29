@@ -2,7 +2,7 @@
 layout: post
 title:  "Running PTP Receiver on FreeBSD"
 date:   2026-02-13 19:00:00 -0600
-categories: freebsd
+categories: freebsd infra
 permalink: /posts/ptp_receiver_on_freebsd.html
 ---
 

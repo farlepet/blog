@@ -2,7 +2,7 @@
 layout: post
 title:  "Keithley 615 Electrometer Interface - Part 2: Testing replacement PCBs, and designing interface PCB"
 date:   2026-03-23 18:00:00 -0500
-categories: test-equipment
+categories: test-equipment hardware
 permalink: /posts/keithley_615_electrometer_interface_part_2.html
 ---
 

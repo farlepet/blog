@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Linux device-tree with PCIe devices"
 date:   2024-02-20 17:45:00 -0600
-categories: linux
+categories: linux programming hardware
 permalink: /posts/using_linux_device_tree_with_pcie_devices.html
 ---
 

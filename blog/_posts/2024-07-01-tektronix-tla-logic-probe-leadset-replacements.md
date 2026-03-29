@@ -2,7 +2,7 @@
 layout: post
 title:  "Tektronix TLA Logic Probe Leadset Replacement"
 date:   2024-07-01 21:00:00 -0500
-categories: test-equipment
+categories: test-equipment hardware
 permalink: /posts/tektronix_tla_logic_probe_leadset_replacement.html
 ---
 
